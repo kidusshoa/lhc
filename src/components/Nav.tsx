@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#vision" className="text-white hover:text-gray-300">
+            <a href="#join" className="text-white hover:text-gray-300">
               Join Us
             </a>
           </li>
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <a
-              href="#vision"
+              href="#join"
               className="hover:text-gray-300"
               onClick={handleShowNavbar}
             >

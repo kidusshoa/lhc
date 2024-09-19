@@ -2,9 +2,8 @@ import React from "react";
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="bg-white min-h-screen py-12">
+    <div id="about" className="bg-white min-h-screen py-12">
       <div className="w-4/5 mx-auto text-center">
-        {/* Executive Summary */}
         <h1 className="text-3xl font-bold mb-6 text-[#903839]">About Us</h1>
         <p className="text-lg mb-6">
           The <strong>Little Hearts Club (LHC)</strong> is a student-run charity
@@ -15,7 +14,6 @@ const AboutUs: React.FC = () => {
           advocacy, and community engagement.
         </p>
 
-        {/* Mission and Vision */}
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div>
             <h2 className="text-2xl font-semibold text-[#903839] mb-2">

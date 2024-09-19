@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-// TypeScript Interfaces
 interface Team {
   teamName: string;
   previousName: string;
@@ -8,10 +7,9 @@ interface Team {
   teamLeaders: string[];
 }
 
-// Card Component
 const TeamCard: React.FC<{ team: Team }> = ({ team }) => {
   return (
-    <div className="border p-4 rounded-lg shadow-lg bg-white">
+    <div id="teams" className="border p-4 rounded-lg shadow-lg bg-white">
       <h2 className="text-xl font-semibold">{team.teamName}</h2>
       <p className="text-sm text-gray-500">Formerly: {team.previousName}</p>
       <ul className="mt-2 list-disc pl-5">
@@ -27,7 +25,6 @@ const TeamCard: React.FC<{ team: Team }> = ({ team }) => {
   );
 };
 
-// Main Component
 const TeamsList: React.FC = () => {
   const [teamData, setTeamData] = useState<Team[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
