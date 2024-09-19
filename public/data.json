@@ -1,0 +1,62 @@
+[
+  {
+    "teamName": "Pulse Alliance",
+    "previousName": "Heartbeat and Alliance Architect",
+    "activities": [
+      "Actively recruit new members and follow up with participants, ensuring retention and involvement.",
+      "Plan and implement strategies to increase membership.",
+      "Establish collaborations with local organizations, NGOs, and university clubs.",
+      "Coordinate partnership activities and ensure smooth execution."
+    ],
+    "teamLeaders": ["Ibsa", "Helidana", "Kiya"]
+  },
+  {
+    "teamName": "BrightNest",
+    "previousName": "Learning Architect and Home Builders",
+    "activities": [
+      "Develop and manage educational plans for children, including creating learning schedules.",
+      "Organize teaching schedules for student instructors and monitor progress.",
+      "Execute additional tasks to ensure a quality education for the children.",
+      "Plan and oversee children's living conditions, ensuring a safe and nurturing environment."
+    ],
+    "teamLeaders": ["Dave", "Yami", "Saba"]
+  },
+  {
+    "teamName": "Spark Squad",
+    "previousName": "Event Masters and Unity Squad",
+    "activities": [
+      "Plan and host events to promote the club, fundraise, and support key activities.",
+      "Organize games and activities to keep members engaged and connected.",
+      "Foster a fun, inclusive environment to build a strong community."
+    ],
+    "teamLeaders": ["Ebisa", "Biruk", "Jerry"]
+  },
+  {
+    "teamName": "Digital Hearts",
+    "previousName": "N/A",
+    "activities": [
+      "Manage and share information with members.",
+      "Advertise the club and activities through different social media.",
+      "Perform other necessary activities related to social media."
+    ],
+    "teamLeaders": ["Sura", "Bersen", "Jitu"]
+  },
+  {
+    "teamName": "Strategy Squad",
+    "previousName": "Action Avengers",
+    "activities": [
+      "Plan and manage activities for members at different levels of participation.",
+      "Organize and select ideas from weekly brainstorming sessions to ensure well-thought-out activities."
+    ],
+    "teamLeaders": ["Dax", "Addis", "Feriha"]
+  },
+  {
+    "teamName": "Cash Catalysts",
+    "previousName": "Hope Seekers",
+    "activities": [
+      "Oversee and optimize the club’s financial resources to ensure efficient use and growth.",
+      "Craft and execute strategies to attract sponsorships and organize fundraising events."
+    ],
+    "teamLeaders": ["Dagi", "Bona", "Amir"]
+  }
+]
