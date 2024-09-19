@@ -8,7 +8,7 @@ import TeamsList from "./Teams";
 
 const Home = () => {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full scroll-smooth">
       <Navbar />
       <Hero />
       <TeamsList />
