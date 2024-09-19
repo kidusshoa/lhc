@@ -19,7 +19,7 @@ const JoinUs: React.FC = () => {
           opportunities they need to thrive.
         </p>
         <a
-          href="/join"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfav2ntkMQaJZT_7iDslB5CPI3jmhIl6x9KwwTJL4ShYe-B1w/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaZzV4bu78AnafZ9blRP1efou45HKaLWHSZS3XtwI-P0Ss1AEWBbcKAx73w_aem_5GGjybMed1BTKi9Wj7xamw"
           className="bg-[#903839] hover:bg-[#a5494a] text-white py-3 px-6 rounded-lg text-lg"
         >
           Join the Community
