@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -13,11 +13,8 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex space-x-4">
-          <a
-            href="https://facebook.com"
-            className="text-xl hover:text-gray-300"
-          >
-            <FaFacebook />
+          <a href="https://t.com" className="text-xl hover:text-gray-300">
+            <FaTelegram />
           </a>
           <a
             href="https://instagram.com"
@@ -31,7 +28,6 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="mt-8 text-center text-sm text-gray-300">
         &copy; {new Date().getFullYear()} Little Hearts Club. All rights
         reserved.
