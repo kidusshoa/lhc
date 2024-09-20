@@ -37,7 +37,6 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        {/* Objectives */}
         <h2 className="text-2xl font-semibold text-[#903839] mb-4">
           Objectives
         </h2>
@@ -64,7 +63,6 @@ const AboutUs: React.FC = () => {
           </li>
         </ul>
 
-        {/* Leadership */}
         <h2 className="text-2xl font-semibold text-[#903839] mb-4">
           Leadership Team
         </h2>

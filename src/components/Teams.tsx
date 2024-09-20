@@ -9,8 +9,11 @@ interface Team {
 
 const TeamCard: React.FC<{ team: Team }> = ({ team }) => {
   return (
-    <div id="teams" className="border p-4 rounded-lg shadow-lg bg-white">
-      <h2 className="text-xl font-semibold">{team.teamName}</h2>
+    <div
+      id="teams"
+      className="border p-4 rounded-lg shadow-[#903839] shadow-lg bg-white"
+    >
+      <h2 className="text-xl font-semibold text-[#903839]">{team.teamName}</h2>
       <p className="text-sm text-gray-500">Formerly: {team.previousName}</p>
       <ul className="mt-2 list-disc pl-5">
         {team.activities.map((activity, index) => (
