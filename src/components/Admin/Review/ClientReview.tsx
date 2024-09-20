@@ -28,8 +28,13 @@ const ClientReview = () => {
     <div className="grid md:grid-cols-2 grid-cols-1 gap-4 h-full w-full p-20 ">
       {reviews.map((review: any) => (
         <div className="h-40 w-full">
-          <div key={review.id} className="bg-white p-4 rounded-lg  shadow-md">
-            <h3 className="text-lg font-bold">{review.full_name}</h3>
+          <div
+            key={review.id}
+            className="bg-white p-4 rounded-lg shadow-[#903839]  shadow-md"
+          >
+            <h3 className="text-lg font-bold text-[#903839]">
+              {review.full_name}
+            </h3>
             <p className="text-sm text-gray-500">{review.email}</p>
             <p className="mt-2 text-gray-700">{review.comment}</p>
           </div>
