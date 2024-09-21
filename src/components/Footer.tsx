@@ -13,7 +13,10 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex space-x-4">
-          <a href="https://t.com" className="text-xl hover:text-gray-300">
+          <a
+            href="https://t.me/LittleHeartsCLUB"
+            className="text-xl hover:text-gray-300"
+          >
             <FaTelegram />
           </a>
           <a
